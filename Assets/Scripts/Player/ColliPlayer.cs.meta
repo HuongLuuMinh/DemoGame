@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e8e654d8304231e428b4e25c15092cc0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SpawnMus: {fileID: 485345645605073988, guid: ced37bc14722e054490c5638f8ab32d3,
+      type: 3}
+  - SpawnTree: {fileID: 7514439477606721337, guid: 7415832677c58254cad0ea6f1430911a,
+      type: 3}
+  - CollectTree: {fileID: 1789473136798922801, guid: a5538786aa9ce0e40ba3e24b36e9c6d3,
+      type: 3}
+  - CollectMus: {fileID: 4687542395021737188, guid: 7600dbd4b3f0cde40b0ed561803b1c30,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

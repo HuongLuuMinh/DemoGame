@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 970bff0476cbcf94a848f085cfc2df56
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CollectButt: {fileID: 5413737134168632460, guid: a5538786aa9ce0e40ba3e24b36e9c6d3,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3148954013689192686
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1536005351757620, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_Name
+      value: Block_Cap_Clay Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1536005351757620, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_TagString
+      value: BlockClay
+      objectReference: {fileID: 0}
+    - target: {fileID: 1536005351757620, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999759333895134, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999759333895134, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.1653957
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999759333895134, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999759333895134, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0072737
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999759333895134, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999759333895134, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999759333895134, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999759333895134, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999759333895134, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999759333895134, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999759333895134, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428818556039349219, guid: 5efeb828bbf4a9b42853039fca3ed4b8,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428818556039349219, guid: 5efeb828bbf4a9b42853039fca3ed4b8,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428818556039349219, guid: 5efeb828bbf4a9b42853039fca3ed4b8,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428818556039349219, guid: 5efeb828bbf4a9b42853039fca3ed4b8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652505254923289582, guid: 5efeb828bbf4a9b42853039fca3ed4b8,
+        type: 3}
+      propertyPath: SpawnMus
+      value: 
+      objectReference: {fileID: 485345645605073988, guid: ced37bc14722e054490c5638f8ab32d3,
+        type: 3}
+    - target: {fileID: 5652505254923289582, guid: 5efeb828bbf4a9b42853039fca3ed4b8,
+        type: 3}
+      propertyPath: MushroomAPref
+      value: 
+      objectReference: {fileID: 1021386439658673688, guid: 1a30fab21b2b4ff4891def8bd0aaf0c4,
+        type: 3}
+    - target: {fileID: 5652505254923289582, guid: 5efeb828bbf4a9b42853039fca3ed4b8,
+        type: 3}
+      propertyPath: MushroomBPref
+      value: 
+      objectReference: {fileID: 8371376829251154038, guid: eee12d77c14a9ed4b91169f3bbd51522,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 5652505254923289582, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5efeb828bbf4a9b42853039fca3ed4b8, type: 3}

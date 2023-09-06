@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 1c0f3df5c73887e46a46060790a586e1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Tree1Pref: {fileID: 1252193358393252796, guid: a6de306dceff46a49b53ff29e090d346,
+      type: 3}
+  - Tree2Pref: {fileID: 2744301253496608961, guid: 41737025248ecfe4498d1ac5f2a5314c,
+      type: 3}
+  - Tree3Pref: {fileID: 3354210442990345446, guid: b6c36a02e902ee243be5462aca9ca1da,
+      type: 3}
+  - Tree4Pref: {fileID: 7329003181292199164, guid: e2897ab728a854c4da9dc67a25e5cb98,
+      type: 3}
+  - PlayerPos: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
