@@ -25,7 +25,7 @@ public class PlayerProfile : ISingleton<PlayerProfile>
     }
     public void InitProfile()
     {
-        FirebaseManager.Instance.ReadProfileData(PLAYER_NAME,
+        /*FirebaseManager.Instance.ReadProfileData(PLAYER_NAME,
             (rs, data) =>
             {
                 if (rs == true && data !=null)
@@ -45,7 +45,19 @@ public class PlayerProfile : ISingleton<PlayerProfile>
                     SaveProfileToServer();
                 }
                 IsInit = true;
-            });
+            });*/
+        SaveGame = new SaveGame()
+        {
+            Name = "PlayerName",
+            Coin = 10000,
+            GameItems = new List<GameItem>(){
+                            new GameItem(){ID = GameItemId.ITEM_01,number =1, name = "item1"},
+                            new GameItem(){ID = GameItemId.ITEM_02,number =1, name = "item2"},
+                            new GameItem(){ID = GameItemId.ITEM_03,number =1, name = "item3"},
+                            new GameItem(){ID = GameItemId.ITEM_04,number =1, name = "item4"},
+                        }
+        };
+        IsInit = true;
     }
     public void SaveProfileToServer()
     {
@@ -63,7 +75,7 @@ public class PlayerProfile : ISingleton<PlayerProfile>
     {
         SaveGame.Coin += number;
         ON_COIN_CHANGE?.Invoke();
-        SaveProfileToServer();
+        //SaveProfileToServer();
     }
     public bool DecreaseCoin(long number)
     {
@@ -71,7 +83,7 @@ public class PlayerProfile : ISingleton<PlayerProfile>
         {
             SaveGame.Coin -= number;
             ON_COIN_CHANGE?.Invoke();
-            SaveProfileToServer();
+            //SaveProfileToServer();
             return true;        }
         else
         {
@@ -89,7 +101,7 @@ public class PlayerProfile : ISingleton<PlayerProfile>
         {
             SaveGame.GameItems.Add(new GameItem() { ID = itemId });
         }
-        SaveProfileToServer();
+        //SaveProfileToServer();
     }
     public bool UseGameItem (GameItemId itemid)
     {
@@ -101,7 +113,7 @@ public class PlayerProfile : ISingleton<PlayerProfile>
             {
                 SaveGame.GameItems.Remove(item);
             }
-            SaveProfileToServer();
+            //SaveProfileToServer();
             return true;
         }
         else
